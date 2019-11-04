@@ -13,58 +13,48 @@
                 <tr>  
                   <td class="tbl1">  
                     <mat-form-field class="demo-full-width">  
-                      <input formControlName="EmpName" matTooltip="Enter Employee Name" matInput placeholder="Employee Name">  
+                      <input formControlName="Name" matTooltip="Enter product Name" matInput placeholder="product Name">  
                     </mat-form-field>  
                     <mat-error>  
-                      <span *ngIf="!productForm.get('EmpName').value && productForm.get('EmpName').touched"></span>  
+                      <span *ngIf="!productForm.get('Name').value && productForm.get('Name').touched"></span>  
                     </mat-error>  
                   </td>  
                   <td class="tbl1">  
                     <mat-form-field class="demo-full-width">  
-                      <input matInput [matDatepicker]="picker"matTooltip="Enter Date Of Birth" formControlName="DateOfBirth"placeholder="Choose Date Of Birth">  
-                      <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>  
-                      <mat-datepicker #picker></mat-datepicker>  
+                      <input formControlName="ProductNumber" matTooltip="Enter product Number" matInput placeholder="product Number"> 
                     </mat-form-field>  
                     <mat-error>  
-                      <span *ngIf="!productForm.get('DateOfBirth').value && productForm.get('DateOfBirth').touched"></span>  
+                      <span *ngIf="!productForm.get('ProductNumber').value && productForm.get('ProductNumber').touched"></span>  
                     </mat-error>  
                   </td>  
                   <td class="tbl1">  
                     <mat-form-field class="demo-full-width">  
-                      <input formControlName="EmailId" matTooltip="Enter EmailId" matInput placeholder="EmailId">  
+                      <input formControlName="Color" matTooltip="Enter product Color" matInput placeholder="product Color"> 
                     </mat-form-field>  
                     <mat-error>  
-                      <span *ngIf="!productForm.get('EmailId').value && productForm.get('EmailId').touched"></span>  
-                    </mat-error>  
+                      <span *ngIf="!productForm.get('ProductColor').value && productForm.get('ProductColor').touched"></span>  
+                    </mat-error>
                   </td>  
                 </tr>  
                 <tr>  
                   <td class="tbl1">  
-                    <span>Gender</span>  
-                    <br><br>  
-                    <mat-radio-group matTooltip="Enter Gender"formControlName="Gender">  
-                        <mat-radio-button value="0">Male</mat-radio-button>    
-                        <mat-radio-button value="1">Female</mat-radio-button>  
-                      </mat-radio-group>  
-                    <mat-error>  
-                      <span *ngIf="!productForm.get('Gender').value && productForm.get('Gender').touched"></span>  
-                    </mat-error>  
-                  </td>  
-                  <td class="tbl1">  
                     <mat-form-field class="demo-full-width">  
-                      <input matTooltip="Enter Address"formControlName="Address" matInput placeholder="Address">  
+                      <input formControlName="StandardCost" matTooltip="Enter product StandardCost" matInput placeholder="product StandardCost"> 
                     </mat-form-field>  
                     <mat-error>  
-                      <span *ngIf="!productForm.get('Address').value && productForm.get('Address').touched"></span>  
-                    </mat-error>  
-                  </td>  
+                      <span *ngIf="!productForm.get('StandardCost').value && productForm.get('StandardCost').touched"></span>  
+                    </mat-error>
+                  </td> 
                   <td class="tbl1">  
                     <mat-form-field class="demo-full-width">  
-                      <input formControlName="PinCode" matTooltip="Enter Pine Code" matInput placeholder="PinCode">  
+                      <input formControlName="ListPrice" matTooltip="Enter product ListPrice" matInput placeholder="product ListPrice"> 
                     </mat-form-field>  
                     <mat-error>  
-                      <span *ngIf="!productForm.get('PinCode').value && productForm.get('PinCode').touched"></span>  
-                    </mat-error>  
+                      <span *ngIf="!productForm.get('ListPrice').value && productForm.get('ListPrice').touched"></span>  
+                    </mat-error>
+                  </td>
+                  <td class="tbl1">  
+                    
                   </td>  
                 </tr>  
                 <tr>  
@@ -83,27 +73,27 @@
         <br><br>  
         <table class="table" >  
             <tr ngclass="btn-primary">  
-              <th class="tbl2">Employee Name</th>  
-              <th class="tbl2">Date Of Birth</th>  
-              <th class="tbl2">Email Id</th>  
-              <th class="tbl2">Gender</th>  
-              <th class="tbl2">Address</th>  
-              <th class="tbl2">Pine Code</th>  
+              <th class="tbl2">ID</th>  
+              <th class="tbl2">Name</th>  
+              <th class="tbl2">Number</th>  
+              <th class="tbl2">Color</th>  
+              <th class="tbl2">StandardCost</th>  
+              <th class="tbl2">ListPrice</th>  
               <th class="tbl2">Edit</th>  
               <th class="tbl2">Delete</th>  
             </tr>  
-            <tr *ngFor="let employee of allEmployees | async">  
-              <td class="tbl2">{{employee.EmpName}}</td>  
-              <td class="tbl2">{{employee.DateOfBirth | date }}</td>  
-              <td class="tbl2">{{employee.EmailId}}</td>  
-              <td class="tbl2">{{employee.Gender ==0? 'Male' : 'Female'}}</td>  
-              <td class="tbl2">{{employee.Address}}</td>  
-              <td class="tbl2">{{employee.PinCode}}</td>  
+            <tr *ngFor="let product of allProducts | async">  
+              <td class="tbl2">{{product.ProductID}}</td>  
+              <td class="tbl2">{{product.Name}}</td>  
+              <td class="tbl2">{{product.ProductNumber}}</td>  
+              <td class="tbl2">{{product.Color}}</td>  
+              <td class="tbl2">{{product.StandardCost}}</td>  
+              <td class="tbl2">{{product.ListPrice}}</td>  
               <td class="tbl2">  
-                <button type="button" class="btn btn-info"matTooltip="Click Edit Button"(click)="loadEmployeeToEdit(employee.EmpId)">Edit</button>  
+                <button type="button" class="btn btn-info"matTooltip="Click Edit Button"(click)="loadProductToEdit(product.ProductID)">Edit</button>  
               </td>  
               <td class="tbl2">  
-                <button type="button" class="btn btn-danger"matTooltip="Click Delete Button"(click)="deleteEmployee(employee.EmpId)">Delete</button>  
+                <button type="button" class="btn btn-danger"matTooltip="Click Delete Button"(click)="deleteProduct(product.ProductID)">Delete</button>  
               </td>  
             </tr>  
     
