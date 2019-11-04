@@ -39,7 +39,7 @@ import { ProductComponent } from './product/product.component';
     MatToolbarModule,  
     AppRoutingModule  
   ],  
-  providers: [HttpClientModule, productService,MatDatepickerModule],  
+  providers: [HttpClientModule, ProductService,MatDatepickerModule],  
   bootstrap: [AppComponent]  
 })  
 export class AppModule { }
