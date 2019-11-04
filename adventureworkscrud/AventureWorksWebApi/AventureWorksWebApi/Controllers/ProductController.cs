@@ -22,7 +22,7 @@ namespace AventureWorksWebApi.Controllers
         {
             try
             {
-                return unitOfWork.ProductRepository.Entities.AsQueryable();
+                return unitOfWork.ProductRepository.Entities.Take(10).AsQueryable();
             }
             catch (Exception)
             {

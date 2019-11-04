@@ -32,7 +32,7 @@
                       <input formControlName="Color" matTooltip="Enter product Color" matInput placeholder="product Color"> 
                     </mat-form-field>  
                     <mat-error>  
-                      <span *ngIf="!productForm.get('ProductColor').value && productForm.get('ProductColor').touched"></span>  
+                      <span *ngIf="!productForm.get('Color').value && productForm.get('Color').touched"></span>  
                     </mat-error>
                   </td>  
                 </tr>  
@@ -89,11 +89,11 @@
               <td class="tbl2">{{product.Color}}</td>  
               <td class="tbl2">{{product.StandardCost}}</td>  
               <td class="tbl2">{{product.ListPrice}}</td>  
-              <td class="tbl2">  
-                <button type="button" class="btn btn-info"matTooltip="Click Edit Button"(click)="loadProductToEdit(product.ProductID)">Edit</button>  
+              <td class="tbl2">
+                  <button matTooltip="Click Edit Button" (click)="loadProductToEdit(product.ProductID)" _ngcontent-ivy-c224="" mat-stroked-button="" color="accent" class="mat-stroked-button mat-button-base mat-accent"><span class="mat-button-wrapper">Edit</span><div matripple="" class="mat-button-ripple mat-ripple"></div><div class="mat-button-focus-overlay"></div></button>  
               </td>  
-              <td class="tbl2">  
-                <button type="button" class="btn btn-danger"matTooltip="Click Delete Button"(click)="deleteProduct(product.ProductID)">Delete</button>  
+              <td class="tbl2"> 
+                  <button matTooltip="Click Delete Button" (click)="deleteProduct(product.ProductID)" _ngcontent-ivy-c224="" mat-stroked-button="" color="accent" class="mat-stroked-button mat-button-base mat-accent"><span class="mat-button-wrapper">Delete</span><div matripple="" class="mat-button-ripple mat-ripple"></div><div class="mat-button-focus-overlay"></div></button>
               </td>  
             </tr>  
     
