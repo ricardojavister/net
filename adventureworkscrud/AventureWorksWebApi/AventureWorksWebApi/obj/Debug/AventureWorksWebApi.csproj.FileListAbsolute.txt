@@ -65,3 +65,7 @@ C:\Users\rtorres033\Ricardo\REPOS\net\adventureworkscrud\AventureWorksWebApi\Ave
 C:\Users\rtorres033\Ricardo\REPOS\net\adventureworkscrud\AventureWorksWebApi\AventureWorksWebApi\obj\Debug\AventureWorksWebApi.csproj.CopyComplete
 C:\Users\rtorres033\Ricardo\REPOS\net\adventureworkscrud\AventureWorksWebApi\AventureWorksWebApi\obj\Debug\AventureWorksWebApi.dll
 C:\Users\rtorres033\Ricardo\REPOS\net\adventureworkscrud\AventureWorksWebApi\AventureWorksWebApi\obj\Debug\AventureWorksWebApi.pdb
+C:\Users\rtorres033\Ricardo\REPOS\net\adventureworkscrud\AventureWorksWebApi\AventureWorksWebApi\bin\System.Web.Cors.dll
+C:\Users\rtorres033\Ricardo\REPOS\net\adventureworkscrud\AventureWorksWebApi\AventureWorksWebApi\bin\System.Web.Http.Cors.dll
+C:\Users\rtorres033\Ricardo\REPOS\net\adventureworkscrud\AventureWorksWebApi\AventureWorksWebApi\bin\System.Web.Http.Cors.xml
+C:\Users\rtorres033\Ricardo\REPOS\net\adventureworkscrud\AventureWorksWebApi\AventureWorksWebApi\obj\Debug\AventureWorksWebApi.csprojAssemblyReference.cache
