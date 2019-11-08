@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29503.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFORE.RepositoryUnitofWork", "EFORE.RepositoryUnitofWork\EFORE.RepositoryUnitofWork.csproj", "{E37A1D7D-CC99-4DBB-8B58-A83BC7AF0534}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFORE.RepositoryUnitofWork.Data", "EFORE.RepositoryUnitofWork.Data\EFORE.RepositoryUnitofWork.Data.csproj", "{1B4DD8BB-1766-4E66-85F2-628A44A296BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E37A1D7D-CC99-4DBB-8B58-A83BC7AF0534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37A1D7D-CC99-4DBB-8B58-A83BC7AF0534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37A1D7D-CC99-4DBB-8B58-A83BC7AF0534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37A1D7D-CC99-4DBB-8B58-A83BC7AF0534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4DD8BB-1766-4E66-85F2-628A44A296BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4DD8BB-1766-4E66-85F2-628A44A296BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4DD8BB-1766-4E66-85F2-628A44A296BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4DD8BB-1766-4E66-85F2-628A44A296BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7838B08-EC68-4BD0-BEC5-0E1FCE25DDED}
+	EndGlobalSection
+EndGlobal

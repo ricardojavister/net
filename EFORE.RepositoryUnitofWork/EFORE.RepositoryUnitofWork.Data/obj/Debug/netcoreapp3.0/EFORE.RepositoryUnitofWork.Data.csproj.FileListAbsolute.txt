@@ -1,0 +1,8 @@
+C:\Users\rtorres033\Ricardo\REPOS\net\EFORE.RepositoryUnitofWork\EFORE.RepositoryUnitofWork.Data\bin\Debug\netcoreapp3.0\EFORE.RepositoryUnitofWork.Data.deps.json
+C:\Users\rtorres033\Ricardo\REPOS\net\EFORE.RepositoryUnitofWork\EFORE.RepositoryUnitofWork.Data\bin\Debug\netcoreapp3.0\EFORE.RepositoryUnitofWork.Data.dll
+C:\Users\rtorres033\Ricardo\REPOS\net\EFORE.RepositoryUnitofWork\EFORE.RepositoryUnitofWork.Data\bin\Debug\netcoreapp3.0\EFORE.RepositoryUnitofWork.Data.pdb
+C:\Users\rtorres033\Ricardo\REPOS\net\EFORE.RepositoryUnitofWork\EFORE.RepositoryUnitofWork.Data\obj\Debug\netcoreapp3.0\EFORE.RepositoryUnitofWork.Data.csprojAssemblyReference.cache
+C:\Users\rtorres033\Ricardo\REPOS\net\EFORE.RepositoryUnitofWork\EFORE.RepositoryUnitofWork.Data\obj\Debug\netcoreapp3.0\EFORE.RepositoryUnitofWork.Data.AssemblyInfoInputs.cache
+C:\Users\rtorres033\Ricardo\REPOS\net\EFORE.RepositoryUnitofWork\EFORE.RepositoryUnitofWork.Data\obj\Debug\netcoreapp3.0\EFORE.RepositoryUnitofWork.Data.AssemblyInfo.cs
+C:\Users\rtorres033\Ricardo\REPOS\net\EFORE.RepositoryUnitofWork\EFORE.RepositoryUnitofWork.Data\obj\Debug\netcoreapp3.0\EFORE.RepositoryUnitofWork.Data.dll
+C:\Users\rtorres033\Ricardo\REPOS\net\EFORE.RepositoryUnitofWork\EFORE.RepositoryUnitofWork.Data\obj\Debug\netcoreapp3.0\EFORE.RepositoryUnitofWork.Data.pdb
